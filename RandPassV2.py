@@ -7,7 +7,7 @@ rstr= [choice(string_char) for i in range(length)]
 
 last_pass = "".join([str(elements) for elements in rstr])
 
-print(last_pass)
+print("Your password:",last_pass)
 
 
 
